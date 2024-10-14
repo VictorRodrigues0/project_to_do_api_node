@@ -2,6 +2,7 @@
   "devDependencies": {
     "nodemon": "^3.1.7",
     "prisma": "^5.20.0",
+    "ts-node": "^10.9.2",
     "typescript": "^5.6.3"
   },
   "dependencies": {
@@ -28,10 +29,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "start": "nodemon ./src/server.ts",
+    "server": "nodemon ./src/server.ts",
     "migrate": "npx prisma migrate dev",
     "db:reset": "npx prisma migrate reset",
-    "deploy" : "npx prisma migrate deploy"
+    "deploy": "npx prisma migrate deploy"
   },
   "author": "Victor Rodrigues",
   "license": "ISC",

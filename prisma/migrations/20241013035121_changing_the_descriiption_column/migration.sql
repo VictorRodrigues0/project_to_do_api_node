@@ -1,2 +1,3 @@
 -- AlterTable
-ALTER TABLE `todos` MODIFY `description` VARCHAR(191) NULL;
+ALTER TABLE "toDos" ALTER COLUMN "description" TYPE VARCHAR(191),
+ALTER COLUMN "description" DROP NOT NULL;

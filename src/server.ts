@@ -25,6 +25,6 @@ app.use("/", routerIndex);
 app.use(urlNotFounError);
 app.use(internalError);
 
-app.listen(process.env.PORT, () => {
+app.listen(process.env.PORT || 9009, () => {
     console.log(`Server is running on link: http://localhost:${process.env.PORT}`)
 });
