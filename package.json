@@ -28,7 +28,7 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "server": "nodemon ./src/server.ts",
+    "start": "nodemon ./src/server.ts",
     "migrate": "npx prisma migrate dev",
     "db:reset": "npx prisma migrate reset",
     "deploy" : "npx prisma migrate deploy"
