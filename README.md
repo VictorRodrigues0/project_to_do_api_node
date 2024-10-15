@@ -101,8 +101,6 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 ```url
 https://localhost/sua_porta
 ```
-<br><br>
-
 **Rota dos usuários**
 
 ```url
