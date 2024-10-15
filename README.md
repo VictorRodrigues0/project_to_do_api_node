@@ -1,12 +1,11 @@
 # project_to_do_api_node
 
+# Topics / Tópicos:
+
 <ul>
-  <li><a href="#text-pt-br">Ler em Português;</a></li>
-  <li><a href="#features-pt-br">Funcionalidades ( pt-br );</a></li>
-  <li><a href="#link-pt-br">Link da API ( pt-br );</a></li>
-  <li><a href="#text-en">Read in english;</a></li>
-  <li><a href="#features-en">Features ( en );</a></li>
-  <li><a href="#link-en">API link ( en ).</a></li>
+  <li><a href="#text-pt-br">Ler em Português;</a> / <a href="#text-en">Read in english</a></li>
+  <li><a href="#features-pt-br">Funcionalidades ( pt-br )</a> / <a href="#features-en">Features ( en )</a></li>
+  <li><a href="#link-api">Link da API ( pt-br ) /  / API link ( en )</a></li>
 </ul>
 
 ## Mais Sobre o Projeto
