@@ -3,13 +3,16 @@
 ### Topics / Tópicos:
 
 <ul>
-   <li><a href="#mais-projeto">Mais sobre o projeto</a>  |  <a href="#text-en">More about the project</a></li>
+   <li><a href="#mais-projeto-pt-br">Mais Sobre o Projeto</a>  |  <a href="#more-project-en">More About the Project</a></li>
   <li><a href="#text-pt-br">Ler em Português</a>  |  <a href="#text-en">Read in english</a></li>
   <li><a href="#features-pt-br">Funcionalidades</a>  |  <a href="#features-en">Features</a></li>
   <li><a href="#link-api">Link da API</a> |  <a href="#link-api"> API link </a></li>
 </ul>
 
-## Mais Sobre o Projeto
+<div id="mais-projeto-pt-br">
+   
+   ## Mais Sobre o Projeto
+</div>
 
 Esta é uma descrição de uma aplicação de gerenciamento de tarefas (To-Do API) utilizando Node.js, PostgreSQL e autenticação JWT:
 
