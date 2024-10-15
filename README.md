@@ -101,7 +101,7 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 ```url
 https://localhost/sua_porta
 ```
-**Rota dos usuários**
+**Rota dos usuários:**
 
 ```url
 https://localhost/sua_porta/users
@@ -122,7 +122,7 @@ https://localhost/sua_porta/users/update/id_do_usuario
 https://localhost/sua_porta/users/delete/id_do_usuario
 ```
 
-**Rota dos to dos**
+**Rota dos to dos:**
 
 ```url
 https://localhost/sua_porta/toDos
@@ -150,7 +150,7 @@ Se você estiver utilizando o projeto em `deploy`, abaixo estão os mesmos links
 ```url
 https://project-to-do-api-node.onrender.com
 ```
-**Rota dos usuários**
+**Rota dos usuários:**
 
 ```url
 https://project-to-do-api-node.onrender.com/users
@@ -171,7 +171,7 @@ https://project-to-do-api-node.onrender.com/users/update/id_do_usuario
 https://project-to-do-api-node.onrender.com/users/delete/id_do_usuario
 ```
 
-**Rota dos to dos**
+**Rota dos to dos:**
 
 ```url
 https://project-to-do-api-node.onrender.com/toDos
@@ -188,6 +188,30 @@ https://project-to-do-api-node.onrender.com/toDos/update/id_do_to_do
 ```url
 https://project-to-do-api-node.onrender.com/users/delete/id_do_to_do
 ```
+
+<br>
+
+**Explicando mehor as rotas:**
+<br><br>
+
+***Users:***
+<br>
+
+Na rota `/users/register`, deve ser passado os valores: name (string), email (string) e password (string). Passe um email válido, pois há um certo nível verificação. Um email válida se assemelha com `seuemail@gmail.com`.
+<br>
+
+Na rota `users/login` será gerado um `token` para autorizar aquele usuário a acessar as outras rotas do sistema. Não esqueça de adicionar este token no `header` de práticamente **TODAS AS ROTAS** do sistema, as unicas rotas que não precisam desse token são: `/users/register`, `/users/login` e `users/list`. Caso não seja enviado este token, será negado o acesso do usuário.
+<br>
+
+***To dos:***
+<br>
+
+Não esqueça de passar os parâmetros necessários em `delete` e `update`. Passs o id do to do, não do usuário.
+
+
+
+
+
 
 
 
