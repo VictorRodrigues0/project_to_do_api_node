@@ -194,21 +194,21 @@ https://project-to-do-api-node.onrender.com/users/delete/id_do_to_do
 **Explicando mehor as rotas:**
 <br><br>
 
-***Users:***
+**Users:**
 <br>
 
-Na rota `/users/register`, deve ser passado os valores: name (string), email (string) e password (string). Passe um email válido, pois há um certo nível verificação. Um email válida se assemelha com `seuemail@gmail.com`.
+Na rota `/users/register`, devem ser enviados os valores: `name` (string), `email` (string) e `password` (string). Certifique-se de passar um email válido, pois há um nível de verificação. Um email válido se assemelha a `seuemail@gmail.com`.
 <br>
 
-Na rota `users/login` será gerado um `token` para autorizar aquele usuário a acessar as outras rotas do sistema. Não esqueça de adicionar este token no `header` de práticamente **TODAS AS ROTAS** do sistema, as unicas rotas que não precisam desse token são: `/users/register`, `/users/login` e `users/list`. Caso não seja enviado este token, será negado o acesso do usuário.
+Na rota `/users/login`, será gerado um `token` que autoriza o usuário a acessar as outras rotas do sistema. Não esqueça de adicionar esse token no `header` de praticamente ⚠️ **TODAS AS ROTAS**⚠️ do sistema. As únicas rotas que não precisam desse token são: `/users/register`, `/users/login` e `/users/list`. Caso o token não seja enviado, o acesso será negado.
 <br>
 
-***To dos:***
+Para enviar o `header` com o `token JWT`, utilize o nome do `header` como `Authorization` e o conteúdo no formato `bearer token_do_usuario_logado`.
+
+**To-Dos:**
 <br>
 
-Não esqueça de passar os parâmetros necessários em `delete` e `update`. Passs o id do to do, não do usuário.
-
-
+Não esqueça de passar os parâmetros necessários nas rotas de `delete` e `update`. O ID que deve ser enviado é o do to-do, e não do usuário.
 
 
 
