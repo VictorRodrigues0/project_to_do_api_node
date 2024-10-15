@@ -3,7 +3,8 @@
 ### Topics / Tópicos:
 
 - [Mais sobre o projeto](#mais-sobre-o-projeto) | [More about the project](#More-about-the-project)
-- [Tecnologias](#tecnologias) | [Technologies](#technologies)
+- [Ferramentas](#ferraments) | [Tools](#tools)
+- [Como usar](#como-usar) | [How to use](#how-to-use) 
 
 </ul>
 
@@ -27,17 +28,18 @@ Esta é a primeira versão funcional; no futuro, o projeto pode ser aprimorado c
 
 <hr>
 
-## Tecnologias
+## Ferramentas
 
 <div style="display:inine-block">
-   <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" width="100px" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original.svg" width="100px" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/socketio/socketio-original.svg" width="100px" />
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="100px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="100px" />
 </div>
           
-          
-          
+<hr>
+
+## Como usar:
+
+
           
 
 
