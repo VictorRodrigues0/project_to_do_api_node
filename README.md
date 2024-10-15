@@ -4,7 +4,8 @@
 
 - [Mais sobre o projeto](#mais-sobre-o-projeto) | [More about the project](#More-about-the-project)
 - [Ferramentas](#ferramentas) | [Tools](#tools)
-- [Como usar](#como-usar) | [How to use](#how-to-use) 
+- [Como baixar](#como-usar) | [How to download](#how-to-use)
+- [Rotas](#rotas) | [Routes](#routes)
 
 </ul>
 
@@ -38,11 +39,7 @@ Esta é a primeira versão funcional; no futuro, o projeto pode ser aprimorado c
           
 <hr>
 
-## Como usar:
-
-Antes de demonstrar como usar esta API, é de extrema importância mencionar que este projeto está no ar, e caso você opte por não utilizá-lo localmente, pode simplesmente substituir o `https://localhost/sua_porta` pelo link fornecido no tópico [Link da API](#link-da-api).
-
-⚠️ **Aviso Importante**: Não se esqueça de configurar o arquivo `.env` antes de iniciar a aplicação. Certifique-se de que as variáveis de ambiente, como as credenciais do banco de dados, chave secreta do JWTe a porta da aplicação. É necessário que essas estejam corretamente ajustadas para o ambiente que você está utilizando. Esse passo é essencial para garantir o funcionamento adequado da API.
+## Como baixar:
 
 Primeiro, copie o projeto para uma pasta de sua preferência:
 ```bash
@@ -59,6 +56,34 @@ Agora, basta iniciar o servidor usando:
 ```bash
 npm run server
 ```
+
+## Rotas
+
+Antes de demonstrar como usar esta API, é de extrema importância mencionar que este projeto está no ar, e caso você opte por não utilizá-lo localmente, pode simplesmente substituir o `https://localhost/sua_porta` pelo link fornecido no tópico [Link da API](#link-da-api).
+
+⚠️ **Aviso Importante**: Não se esqueça de configurar o arquivo `.env` antes de iniciar a aplicação. Certifique-se de que as variáveis de ambiente, como as credenciais do banco de dados, chave secreta do JWTe a porta da aplicação. É necessário que essas estejam corretamente ajustadas para o ambiente que você está utilizando. Esse passo é essencial para garantir o funcionamento adequado da API.
+
+**Rota padrão:**
+<br>
+✅ `https://localhost/sua_porta/`: Verifica se a aplicação está no ar (apenas para testar).
+<br>
+**Rota dos usuários:**
+<br>
+✅ `https://localhost/sua_porta/users`: Verifica se a rota `users` está no ar (apenas para testar).
+✅ `https://localhost/sua_porta/users/register`: Registra um usuário no banco de dados.
+✅ `https://localhost/sua_porta/users/login`: Faz login usando o email e a senha de algum usuário cadastrado.
+✅ `https://localhost/sua_porta/users/list`: Lista todos os usuarios no sistema. 
+✅ `https://localhost/sua_porta/users/update/id_do_user`: Atualiza os dados do usuário passado por parâmetro.
+✅ `https://localhost/sua_porta/users/delete/id_do_user`: Excluí o usuário passado por parâmetro.
+<br>
+**Rota do to do:**
+<br>
+✅ `https://localhost/sua_porta/toDos`: Verifica se a rota `toDos` está no ar (apenas para testar).
+✅ `https://localhost/sua_porta/toDos/create`:Cria um to do para o usuário ogado.
+✅ `https://localhost/sua_porta/toDos/list`: Lista os to dos do usuário logado.
+✅ `https://localhost/sua_porta/toDos/update/id_do_to_do`: Atualiza um to do em específico do usuário logado.
+✅ `https://localhost/sua_porta/toDos/delete/id_do_to_do`: Deleta um to do em específico do usuário logado.
+<br>
 
 
 Use the project : https://project-to-do-api-node.onrender.com
