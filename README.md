@@ -2,7 +2,8 @@
 
 ### Topics / Tópicos:
 
-- [Mais sobre o projeto](#mais-sobre-o-projeto) || [More about the project](#More about the project)
+- [Mais sobre o projeto](#mais-sobre-o-projeto) | [More about the project](#More-about-the-project)
+- [Tecnologias](#tecnologias) | [Technologies](#technologies)
 
 </ul>
 
@@ -26,8 +27,10 @@ Esta é a primeira versão funcional; no futuro, o projeto pode ser aprimorado c
 
 <hr>
 
-## Tecologias
+## Tecnologias
 
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original.svg" />
+          
 
 
 Use the project : https://project-to-do-api-node.onrender.com
