@@ -65,7 +65,7 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 
 **Rota padrão:**
 <br>
-✅ `https://localhost/sua_porta/`: Verifica se a aplicação está no ar (apenas para testar).
+✅ `https://localhost/sua_porta`: Verifica se a aplicação está no ar (apenas para testar).
 <br><br>
 **Rota dos usuários:**
 <br>
@@ -81,7 +81,7 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 <br>
 ✅ `https://localhost/sua_porta/users/delete/id_do_user`: Excluí o usuário passado por parâmetro.
 <br><br>
-**Rota do to do:**
+**Rota dos to dos:**
 <br>
 ✅ `https://localhost/sua_porta/toDos`: Verifica se a rota `toDos` está no ar (apenas para testar).
 <br>
@@ -96,10 +96,10 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 <br>
 
 **Urls copiáves**
-<br>
+<br><br>
 **Rota padrão:**
 ```url
-
+https://localhost/sua_porta
 ```
 <br><br>
 
@@ -124,6 +124,23 @@ https://localhost/sua_porta/users/update/id_do_usuario
 https://localhost/sua_porta/users/delete/id_do_usuario
 ```
 
+**Rota dos to dos**
+
+```url
+https://localhost/sua_porta/toDos
+```
+```url
+https://localhost/sua_porta/toDos/create
+```
+```url
+https://localhost/sua_porta/toDos/list
+```
+```url
+https://localhost/sua_porta/toDos/update/id_do_to_do
+```
+```url
+https://localhost/sua_porta/users/delete/id_do_to_do
+```
 
 
 
