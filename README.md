@@ -3,7 +3,7 @@
 ### Topics / Tópicos:
 
 - [Mais sobre o projeto](#mais-sobre-o-projeto) | [More about the project](#More-about-the-project)
-- [Ferramentas](#ferraments) | [Tools](#tools)
+- [Ferramentas](#ferramentas) | [Tools](#tools)
 - [Como usar](#como-usar) | [How to use](#how-to-use) 
 
 </ul>
@@ -32,15 +32,33 @@ Esta é a primeira versão funcional; no futuro, o projeto pode ser aprimorado c
 
 <div style="display:inine-block">
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="100px" />
-<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/mysql/mysql-original-wordmark.svg" width="100px" />
+<img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg"width="100px"  />
+          
 </div>
           
 <hr>
 
 ## Como usar:
 
+Antes de demonstrar como usar esta API, é de extrema importância mencionar que este projeto está no ar, e caso você opte por não utilizá-lo localmente, pode simplesmente substituir o `https://localhost/sua_porta` pelo link fornecido no tópico [Link da API](#link-da-api).
 
-          
+⚠️ **Aviso Importante**: Não se esqueça de configurar o arquivo `.env` antes de iniciar a aplicação. Certifique-se de que as variáveis de ambiente, como as credenciais do banco de dados, chave secreta do JWTe a porta da aplicação. É necessário que essas estejam corretamente ajustadas para o ambiente que você está utilizando. Esse passo é essencial para garantir o funcionamento adequado da API.
+
+Primeiro, copie o projeto para uma pasta de sua preferência:
+```bash
+git clone https://github.com/VictorRodrigues0/project_to_do_api_node.git
+```
+
+Depois, instale os módulos do Node:
+```bash
+npm install
+```
+
+Agora, basta iniciar o servidor usando:
+
+```bash
+npm run server
+```
 
 
 Use the project : https://project-to-do-api-node.onrender.com
