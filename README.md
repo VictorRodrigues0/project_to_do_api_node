@@ -3,7 +3,7 @@
 ### Topics / Tópicos:
 
 <ul>
-    - [Mais Sobre o Projeto](#mais-sobre-o-projeto)  |  <a href="#more-project-en">More About the Project</a>
+    <li> [Mais Sobre o Projeto](#mais-sobre-o-projeto) </li>
   <li><a href="#features-pt-br">Funcionalidades</a>  |  <a href="#features-en">Features</a></li>
   <li><a href="#link-api">Link da API</a> |  <a href="#link-api"> API link </a></li>
 </ul>
