@@ -70,19 +70,29 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 **Rota dos usuários:**
 <br>
 ✅ `https://localhost/sua_porta/users`: Verifica se a rota `users` está no ar (apenas para testar).
+<br>
 ✅ `https://localhost/sua_porta/users/register`: Registra um usuário no banco de dados.
+<br>
 ✅ `https://localhost/sua_porta/users/login`: Faz login usando o email e a senha de algum usuário cadastrado.
+<br>
 ✅ `https://localhost/sua_porta/users/list`: Lista todos os usuarios no sistema. 
+<br>
 ✅ `https://localhost/sua_porta/users/update/id_do_user`: Atualiza os dados do usuário passado por parâmetro.
+<br>
 ✅ `https://localhost/sua_porta/users/delete/id_do_user`: Excluí o usuário passado por parâmetro.
 <br>
 **Rota do to do:**
 <br>
 ✅ `https://localhost/sua_porta/toDos`: Verifica se a rota `toDos` está no ar (apenas para testar).
+<br>
 ✅ `https://localhost/sua_porta/toDos/create`:Cria um to do para o usuário ogado.
+<br>
 ✅ `https://localhost/sua_porta/toDos/list`: Lista os to dos do usuário logado.
+<br>
 ✅ `https://localhost/sua_porta/toDos/update/id_do_to_do`: Atualiza um to do em específico do usuário logado.
+<br>
 ✅ `https://localhost/sua_porta/toDos/delete/id_do_to_do`: Deleta um to do em específico do usuário logado.
+<br>
 <br>
 
 
