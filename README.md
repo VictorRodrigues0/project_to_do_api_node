@@ -66,7 +66,7 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 **Rota padrão:**
 <br>
 ✅ `https://localhost/sua_porta/`: Verifica se a aplicação está no ar (apenas para testar).
-<br>
+<br><br>
 **Rota dos usuários:**
 <br>
 ✅ `https://localhost/sua_porta/users`: Verifica se a rota `users` está no ar (apenas para testar).
@@ -80,7 +80,7 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 ✅ `https://localhost/sua_porta/users/update/id_do_user`: Atualiza os dados do usuário passado por parâmetro.
 <br>
 ✅ `https://localhost/sua_porta/users/delete/id_do_user`: Excluí o usuário passado por parâmetro.
-<br>
+<br><br>
 **Rota do to do:**
 <br>
 ✅ `https://localhost/sua_porta/toDos`: Verifica se a rota `toDos` está no ar (apenas para testar).
@@ -94,6 +94,49 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 ✅ `https://localhost/sua_porta/toDos/delete/id_do_to_do`: Deleta um to do em específico do usuário logado.
 <br>
 <br>
+
+**Urls copiáves**
+<br>
+**Rota padrão:**
+```url
+
+```
+<br><br>
+
+**Rota dos usuários**
+
+```url
+https://localhost/sua_porta/users
+```
+```url
+https://localhost/sua_porta/users/register
+```
+```url
+https://localhost/sua_porta/users/login
+```
+```url
+https://localhost/sua_porta/users/list
+```
+```url
+https://localhost/sua_porta/users/update/id_do_usuario
+```
+```url
+https://localhost/sua_porta/users/delete/id_do_usuario
+```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 Use the project : https://project-to-do-api-node.onrender.com
