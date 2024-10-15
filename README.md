@@ -2,16 +2,14 @@
 
 ### Topics / Tópicos:
 
-<ul>
-    <li> [Mais Sobre o Projeto](#mais-sobre-o-projeto) </li>
-  <li><a href="#features-pt-br">Funcionalidades</a>  |  <a href="#features-en">Features</a></li>
-  <li><a href="#link-api">Link da API</a> |  <a href="#link-api"> API link </a></li>
+- [Mais sobre o projeto](#mais-sobre-o-projeto) || [More about the project](#More about the project)
+
 </ul>
 
 <hr>
 <div id="mais-projeto-pt-br">
    
-   ## Mais sobre o projeto
+   ## Mais sobre o projeto 
 </div>
 
 Esta é uma descrição de uma aplicação de gerenciamento de tarefas (To-Do API) utilizando Node.js, PostgreSQL e autenticação JWT:
