@@ -140,10 +140,54 @@ https://localhost/sua_porta/toDos/update/id_do_to_do
 https://localhost/sua_porta/users/delete/id_do_to_do
 ```
 
+<br>
 
+Se você estiver utilizando o projeto em `deploy`, abaixo estão os mesmos links já configurados para uso em um servidor online.
 
+<br>
 
+**Rota padrão:**
+```url
+https://project-to-do-api-node.onrender.com
+```
+**Rota dos usuários**
 
+```url
+https://project-to-do-api-node.onrender.com/users
+```
+```url
+https://project-to-do-api-node.onrender.com/users/register
+```
+```url
+https://project-to-do-api-node.onrender.com/users/login
+```
+```url
+https://project-to-do-api-node.onrender.com/users/list
+```
+```url
+https://project-to-do-api-node.onrender.com/users/update/id_do_usuario
+```
+```url
+https://project-to-do-api-node.onrender.com/users/delete/id_do_usuario
+```
+
+**Rota dos to dos**
+
+```url
+https://project-to-do-api-node.onrender.com/toDos
+```
+```url
+https://project-to-do-api-node.onrender.com/toDos/create
+```
+```url
+https://project-to-do-api-node.onrender.com/toDos/list
+```
+```url
+https://project-to-do-api-node.onrender.com/toDos/update/id_do_to_do
+```
+```url
+https://project-to-do-api-node.onrender.com/users/delete/id_do_to_do
+```
 
 
 
