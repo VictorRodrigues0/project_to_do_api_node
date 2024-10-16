@@ -100,6 +100,34 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 <br>
 <br>
 
+**Explicando mehor as rotas:**
+<br><br>
+**Users:**
+<br>
+
+Na rota `/users/register`, devem ser enviados os valores: `name` (string), `email` (string) e `password` (string). Certifique-se de passar um email válido, pois há um nível de verificação. Um email válido se assemelha a `seuemail@gmail.com`.
+<br>
+
+Na rota `/users/login`, será gerado um `token` que autoriza o usuário a acessar as outras rotas do sistema. Não esqueça de adicionar esse token no `header` de praticamente ⚠️**TODAS AS ROTAS**⚠️ do sistema. As únicas rotas que não precisam desse token são: `/users/register`, `/users/login` e `/users/list`. Caso o token não seja enviado, o acesso será negado.
+<br>
+
+Para enviar o `header` com o `token JWT`, utilize o nome do `header` como `Authorization` e o conteúdo no formato `bearer token_do_usuario_logado`.
+
+<br>
+
+**To-Dos:**
+<br>
+
+Não esqueça de passar os parâmetros necessários nas rotas de `delete` e `update`. O ID que deve ser enviado é o do to-do, e não do usuário.
+
+<br>
+
+**Para rotas do tipo `update`:**  
+<br>
+Em rotas desse tipo, é importante enviar **TODOS** os dados do usuário novamente, alterando apenas o que for necessário. Isso garante que os outros campos não sejam sobrescritos ou perdidos.  
+
+<br>
+
 **Urls copiáves**
 <br><br>
 **Rota padrão:**
@@ -193,34 +221,6 @@ https://project-to-do-api-node.onrender.com/toDos/update/id_do_to_do
 ```url
 https://project-to-do-api-node.onrender.com/users/delete/id_do_to_do
 ```
-
-<br>
-
-**Explicando mehor as rotas:**
-<br><br>
-**Users:**
-<br>
-
-Na rota `/users/register`, devem ser enviados os valores: `name` (string), `email` (string) e `password` (string). Certifique-se de passar um email válido, pois há um nível de verificação. Um email válido se assemelha a `seuemail@gmail.com`.
-<br>
-
-Na rota `/users/login`, será gerado um `token` que autoriza o usuário a acessar as outras rotas do sistema. Não esqueça de adicionar esse token no `header` de praticamente ⚠️**TODAS AS ROTAS**⚠️ do sistema. As únicas rotas que não precisam desse token são: `/users/register`, `/users/login` e `/users/list`. Caso o token não seja enviado, o acesso será negado.
-<br>
-
-Para enviar o `header` com o `token JWT`, utilize o nome do `header` como `Authorization` e o conteúdo no formato `bearer token_do_usuario_logado`.
-
-<br>
-
-**To-Dos:**
-<br>
-
-Não esqueça de passar os parâmetros necessários nas rotas de `delete` e `update`. O ID que deve ser enviado é o do to-do, e não do usuário.
-
-<br>
-
-**Para rotas do tipo `update`:**  
-<br>
-Em rotas desse tipo, é importante enviar **TODOS** os dados do usuário novamente, alterando apenas o que for necessário. Isso garante que os outros campos não sejam sobrescritos ou perdidos.  
 
 <hr>
 
