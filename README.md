@@ -2,11 +2,11 @@
 
 ### Tópicos / Topics:
 
-- [Sobre o projeto](#sobre-o-projeto) | [About the project](#about-the-project)
+- [Sobre o Projeto](#sobre-o-projeto) | [About the Project](#about-the-project)
 - [Ferramentas](#ferramentas) | [Tools](#tools)
-- [Como instalar](#como-instalar) | [How to download](#how-to-download)
+- [Como Instalar](#como-instalar) | [How to Install](#how-to-install)
 - [Rotas](#rotas) | [Routes](#routes)
-- [Link da API](#link-da-api) | [API link](#api-link)
+- [Link da API](#link-da-api) | [API Link](#api-link)
 - [Agradecimento](#agradecimento) | [Acknowledgment](#acknowledgment)
 
 </ul>
@@ -259,7 +259,7 @@ This is the first functional version; in the future, the project may be improved
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="100px" /> 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" width="100px" /> </div> <hr>
 
-## How to Download:
+## How to Install:
 First, clone the project to a directory of your choice
 ```bash
 git clone https://github.com/VictorRodrigues0/project_to_do_api_node.git
