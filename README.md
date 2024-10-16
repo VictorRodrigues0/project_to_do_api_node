@@ -208,9 +208,11 @@ Para enviar o `header` com o `token JWT`, utilize o nome do `header` como `Autho
 <br>
 
 Não esqueça de passar os parâmetros necessários nas rotas de `delete` e `update`. O ID que deve ser enviado é o do to-do, e não do usuário.
+
 <br>
+
 **Para rotas do tipo `update`:**  
-<br><br>
+<br>
 Em rotas desse tipo, é importante enviar **TODOS** os dados do usuário novamente, alterando apenas o que for necessário. Isso garante que os outros campos não sejam sobrescritos ou perdidos.  
 <br>
 
