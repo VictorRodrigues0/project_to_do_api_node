@@ -13,7 +13,7 @@
 
 <hr>
    
-   ## Sobre o projeto 
+   ## Sobre o Projeto 
 </div>
 
 Esta é uma descrição de uma aplicação de gerenciamento de tarefas (To-Do API) utilizando Node.js, PostgreSQL e autenticação JWT:
@@ -237,7 +237,7 @@ Agradeço por utilizar esta API. Espero que tenha sido útil para o seu projeto 
 
 <hr>
 
-## About the project
+## About the Project
 </div>
 This is a description of a task management application (To-Do API) using Node.js, PostgreSQL, and JWT authentication:
 
@@ -259,7 +259,7 @@ This is the first functional version; in the future, the project may be improved
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="100px" /> 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" width="100px" /> </div> <hr>
 
-## How to download:
+## How to Download:
 First, clone the project to a directory of your choice
 ```bash
 git clone https://github.com/VictorRodrigues0/project_to_do_api_node.git
