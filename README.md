@@ -194,8 +194,9 @@ https://project-to-do-api-node.onrender.com/users/delete/id_do_to_do
 **Explicando mehor as rotas:**
 <br><br>
 
-**Para rotas do tipo `update`:**  
+**Para rotas do tipo `update`:**  <br>
 Em rotas desse tipo, é importante enviar **TODOS** os dados do usuário novamente, alterando apenas o que for necessário. Isso garante que os outros campos não sejam sobrescritos ou perdidos.  
+<br>
 **Users:**
 <br>
 
