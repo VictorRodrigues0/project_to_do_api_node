@@ -4,7 +4,7 @@
 
 - [Mais sobre o projeto](#mais-sobre-o-projeto) | [More about the project](#More-about-the-project)
 - [Ferramentas](#ferramentas) | [Tools](#tools)
-- [Como baixar](#como-usar) | [How to download](#how-to-use)
+- [Como baixar](#como-baixar) | [How to download](#how-to-download)
 - [Rotas](#rotas) | [Routes](#routes)
 - [Link da API](#link-da-api) | [API link](#api-link)
 - [Agradecimento](#agradecimento) | [Acknowledgment](#acknowledgment)
