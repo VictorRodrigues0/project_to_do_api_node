@@ -334,28 +334,28 @@ In these types of routes, it is important to send **ALL** user data again, chang
 
 **Default Route:**
 ```url
-https://localhost/sua_porta
+https://localhost/your_port
 ```
 
 **User Routes:**
 
 ```url
-https://localhost/sua_porta/users
+https://localhost/your_port/users
 ```
 ```url
-https://localhost/sua_porta/users/register
+https://localhost/your_port/users/register
 ```
 ```url
-https://localhost/sua_porta/users/login
+https://localhost/your_port/users/login
 ```
 ```url
-https://localhost/sua_porta/users/list
+https://localhost/your_port/users/list
 ```
 ```url
-https://localhost/sua_porta/users/update/id_do_usuario
+https://localhost/your_port/users/update/user_id
 ```
 ```url
-https://localhost/sua_porta/users/delete/id_do_usuario
+https://localhost/your_port/users/delete/user_id
 ```
 
 
@@ -363,19 +363,19 @@ https://localhost/sua_porta/users/delete/id_do_usuario
 
 
 ```url
-https://localhost/sua_porta/toDos
+https://localhost/your_port/toDos
 ```
 ```url
-https://localhost/sua_porta/toDos/create
+https://localhost/your_port/toDos/create
 ```
 ```url
-https://localhost/sua_porta/toDos/list
+https://localhost/your_port/toDos/list
 ```
 ```url
-https://localhost/sua_porta/toDos/update/id_do_to_do
+https://localhost/your_port/toDos/update/to_do_id
 ```
 ```url
-https://localhost/sua_porta/users/delete/id_do_to_do
+https://localhost/your_port/users/delete/to_do_id
 ```
 
 <br>
@@ -404,10 +404,10 @@ https://project-to-do-api-node.onrender.com/users/login
 https://project-to-do-api-node.onrender.com/users/list
 ```
 ```url
-https://project-to-do-api-node.onrender.com/users/update/id_do_usuario
+https://project-to-do-api-node.onrender.com/users/update/user_id
 ```
 ```url
-https://project-to-do-api-node.onrender.com/users/delete/id_do_usuario
+https://project-to-do-api-node.onrender.com/users/delete/user_id
 ```
 
 **To-Do Routes:**
@@ -421,10 +421,10 @@ https://project-to-do-api-node.onrender.com/toDos/create
 https://project-to-do-api-node.onrender.com/toDos/list
 ```
 ```url
-https://project-to-do-api-node.onrender.com/toDos/update/id_do_to_do
+https://project-to-do-api-node.onrender.com/toDos/update/to_do_id
 ```
 ```url
-https://project-to-do-api-node.onrender.com/users/delete/id_do_to_do
+https://project-to-do-api-node.onrender.com/users/delete/to_do_id
 ```
 
 
