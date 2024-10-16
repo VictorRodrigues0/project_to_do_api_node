@@ -2,9 +2,9 @@
 
 ### Tópicos / Topics:
 
-- [Mais sobre o projeto](#mais-sobre-o-projeto) | [More about the project](#More-about-the-project)
+- [Sobre o projeto](#sobre-o-projeto) | [About the project](#about-the-project)
 - [Ferramentas](#ferramentas) | [Tools](#tools)
-- [Como baixar](#como-baixar) | [How to download](#how-to-download)
+- [Como instalar](#como-instalar) | [How to download](#how-to-download)
 - [Rotas](#rotas) | [Routes](#routes)
 - [Link da API](#link-da-api) | [API link](#api-link)
 - [Agradecimento](#agradecimento) | [Acknowledgment](#acknowledgment)
@@ -12,9 +12,8 @@
 </ul>
 
 <hr>
-<div id="mais-projeto-pt-br">
    
-   ## Mais sobre o projeto 
+   ## Sobre o projeto 
 </div>
 
 Esta é uma descrição de uma aplicação de gerenciamento de tarefas (To-Do API) utilizando Node.js, PostgreSQL e autenticação JWT:
@@ -42,7 +41,7 @@ Esta é a primeira versão funcional; no futuro, o projeto pode ser aprimorado c
           
 <hr>
 
-## Como baixar:
+## Como instalar:
 
 Primeiro, copie o projeto para uma pasta de sua preferência:
 ```bash
@@ -238,7 +237,7 @@ Agradeço por utilizar esta API. Espero que tenha sido útil para o seu projeto 
 
 <hr>
 
-## More about the project
+## About the project
 </div>
 This is a description of a task management application (To-Do API) using Node.js, PostgreSQL, and JWT authentication:
 
