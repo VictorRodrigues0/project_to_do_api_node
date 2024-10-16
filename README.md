@@ -6,6 +6,8 @@
 - [Ferramentas](#ferramentas) | [Tools](#tools)
 - [Como baixar](#como-usar) | [How to download](#how-to-use)
 - [Rotas](#rotas) | [Routes](#routes)
+- [Link da API](#link-da-api) | [API link](#api-link)
+- [Agradecimento](#agradecimento)
 
 </ul>
 
@@ -199,7 +201,7 @@ https://project-to-do-api-node.onrender.com/users/delete/id_do_to_do
 Na rota `/users/register`, devem ser enviados os valores: `name` (string), `email` (string) e `password` (string). Certifique-se de passar um email válido, pois há um nível de verificação. Um email válido se assemelha a `seuemail@gmail.com`.
 <br>
 
-Na rota `/users/login`, será gerado um `token` que autoriza o usuário a acessar as outras rotas do sistema. Não esqueça de adicionar esse token no `header` de praticamente ⚠️ **TODAS AS ROTAS**⚠️ do sistema. As únicas rotas que não precisam desse token são: `/users/register`, `/users/login` e `/users/list`. Caso o token não seja enviado, o acesso será negado.
+Na rota `/users/login`, será gerado um `token` que autoriza o usuário a acessar as outras rotas do sistema. Não esqueça de adicionar esse token no `header` de praticamente ⚠️**TODAS AS ROTAS**⚠️ do sistema. As únicas rotas que não precisam desse token são: `/users/register`, `/users/login` e `/users/list`. Caso o token não seja enviado, o acesso será negado.
 <br>
 
 Para enviar o `header` com o `token JWT`, utilize o nome do `header` como `Authorization` e o conteúdo no formato `bearer token_do_usuario_logado`.
@@ -216,18 +218,11 @@ Não esqueça de passar os parâmetros necessários nas rotas de `delete` e `upd
 **Para rotas do tipo `update`:**  
 <br>
 Em rotas desse tipo, é importante enviar **TODOS** os dados do usuário novamente, alterando apenas o que for necessário. Isso garante que os outros campos não sejam sobrescritos ou perdidos.  
-<br>
 
+## Link da API:
 
+Utilize o projeto em produção: https://project-to-do-api-node.onrender.com
 
+## Agradecimento:
 
-
-
-
-
-
-
-
-
-
-Use the project : https://project-to-do-api-node.onrender.com
+Agradeço por utilizar esta API. Espero que tenha sido útil para o seu projeto pessoal. Sua contribuição é sempre bem-vinda, seja para corrigir algum erro ou adicionar novas funcionalidades. Não hesite em enviar sua solução.
