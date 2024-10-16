@@ -1,6 +1,6 @@
 # project_to_do_api_node
 
-### Topics / Tópicos:
+### Tópicos /Topics:
 
 - [Mais sobre o projeto](#mais-sobre-o-projeto) | [More about the project](#More-about-the-project)
 - [Ferramentas](#ferramentas) | [Tools](#tools)
