@@ -7,7 +7,7 @@
 - [Como baixar](#como-usar) | [How to download](#how-to-use)
 - [Rotas](#rotas) | [Routes](#routes)
 - [Link da API](#link-da-api) | [API link](#api-link)
-- [Agradecimento](#agradecimento)
+- [Agradecimento](#agradecimento) | [Acknowledgment](#acknowledgment)
 
 </ul>
 
@@ -66,11 +66,11 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 
 ⚠️ **Aviso Importante**: Não se esqueça de configurar o arquivo `.env` antes de iniciar a aplicação. Certifique-se de que as variáveis de ambiente, como as credenciais do banco de dados, chave secreta do JWTe a porta da aplicação. É necessário que essas estejam corretamente ajustadas para o ambiente que você está utilizando. Esse passo é essencial para garantir o funcionamento adequado da API.
 
-**Rota padrão:**
+**Rota Padrão:**
 <br>
 ✅ `https://localhost/sua_porta`: Verifica se a aplicação está no ar (apenas para testar).
 <br><br>
-**Rota dos usuários:**
+**Rota dos Usuários:**
 <br>
 ✅ `https://localhost/sua_porta/users`: Verifica se a rota `users` está no ar (apenas para testar).
 <br>
@@ -84,7 +84,7 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 <br>
 ✅ `https://localhost/sua_porta/users/delete/id_do_user`: Excluí o usuário passado por parâmetro.
 <br><br>
-**Rota dos to-dos:**
+**Rota dos To-Dos:**
 <br>
 ✅ `https://localhost/sua_porta/toDos`: Verifica se a rota `toDos` está no ar (apenas para testar).
 <br>
@@ -126,13 +126,13 @@ Em rotas desse tipo, é importante enviar **TODOS** os dados do usuário novamen
 
 <br>
 
-**Urls copiáves**
+**Urls Copiáves**
 <br><br>
-**Rota padrão:**
+**Rota Padrão:**
 ```url
 https://localhost/sua_porta
 ```
-**Rota dos usuários:**
+**Rota dos Usuários:**
 
 ```url
 https://localhost/sua_porta/users
@@ -153,7 +153,7 @@ https://localhost/sua_porta/users/update/id_do_usuario
 https://localhost/sua_porta/users/delete/id_do_usuario
 ```
 
-**Rota dos to-dos:**
+**Rota dos To-Dos:**
 
 ```url
 https://localhost/sua_porta/toDos
@@ -177,11 +177,11 @@ Se você estiver utilizando o projeto em `deploy`, abaixo estão os mesmos links
 
 <br>
 
-**Rota padrão:**
+**Rota Padrão:**
 ```url
 https://project-to-do-api-node.onrender.com
 ```
-**Rota dos usuários:**
+**Rota dos Usuários:**
 
 ```url
 https://project-to-do-api-node.onrender.com/users
@@ -202,7 +202,7 @@ https://project-to-do-api-node.onrender.com/users/update/id_do_usuario
 https://project-to-do-api-node.onrender.com/users/delete/id_do_usuario
 ```
 
-**Rota dos to-dos:**
+**Rota dos To-dos:**
 
 ```url
 https://project-to-do-api-node.onrender.com/toDos
@@ -273,15 +273,15 @@ npm run server
 <hr>
 
 ## Routes
-Before demonstrating how to use this API, it is crucial to mention that this project is live. If you choose not to use it locally, you can simply replace https://localhost/your_port with the link provided in the API link section.
+Before demonstrating how to use this API, it is crucial to mention that this project is live. If you choose not to use it locally, you can simply replace `https://localhost/your_port` with the link provided in the API link section.
 
-⚠️ Important Notice: Don’t forget to configure the .env file before starting the application. Ensure that environment variables such as database credentials, JWT secret key, and application port are set correctly for your environment. This step is essential for the proper functioning of the API.
+⚠️ **Important Notice:** Don’t forget to configure the `env` file before starting the application. Ensure that environment variables such as `database credentials`, `JWT secret key`, and `application port `are set correctly for your environment. This step is essential for the proper functioning of the API.
 
-<br> ✅ 
+<br>
 
-**Default route** <br>
+**Default Route** <br>
 
-`https://localhost/your_port`: Checks if the application is running (for testing purposes). <br><br>
+✅ `https://localhost/your_port`: Checks if the application is running (for testing purposes). <br><br>
 
 **User Routes:** <br> 
 ✅ `https://localhost/your_port/users`: Checks if the users route is running (for testing purposes). <br>
@@ -369,7 +369,7 @@ https://localhost/sua_porta/users/delete/id_do_to_do
 
 <br>
 
-If you are using the project in deploy, below are the same links already configured for use on an online server.
+If you are using the project in `deploy`, below are the same links already configured for use on an online server.
 
 <br>
 
