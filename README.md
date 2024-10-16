@@ -65,7 +65,7 @@ npm run server
 
 Antes de demonstrar como usar esta API, é de extrema importância mencionar que este projeto está no ar, e caso você opte por não utilizá-lo localmente, pode simplesmente substituir o `https://localhost/sua_porta` pelo link fornecido no tópico [Link da API](#link-da-api).
 
-⚠️ **Aviso Importante**: Não se esqueça de configurar o arquivo `.env` antes de iniciar a aplicação. Certifique-se de que as variáveis de ambiente, como as credenciais do banco de dados, chave secreta do JWTe a porta da aplicação. É necessário que essas estejam corretamente ajustadas para o ambiente que você está utilizando. Esse passo é essencial para garantir o funcionamento adequado da API.
+⚠️ **Aviso Importante**: Não se esqueça de configurar o arquivo `.env` antes de iniciar a aplicação. Certifique-se de que as variáveis de ambiente, como as `credenciais do banco de dados`, `chave secreta do JWT ` e a `porta da aplicação`. É necessário que essas estejam corretamente ajustadas para o ambiente que você está utilizando. Esse passo é essencial para garantir o funcionamento adequado da API.
 
 **Rota Padrão:**
 <br>
@@ -115,6 +115,9 @@ Para enviar o `header` com o `token JWT`, utilize o nome do `header` como `Autho
 <br>
 
 **To-Dos:**
+<br>
+
+Na rota `/toDos/create`, devem ser enviados os seguintes dados: `name` (string), `task` (string), `priority` (string), `status` (string), `term` (data), `category` (string) e `description` (string). É importante mencionar que o campo `description` é opcional.
 <br>
 
 Não esqueça de passar os parâmetros necessários nas rotas de `delete` e `update`. O ID que deve ser enviado é o do to-do, e não do usuário.
@@ -314,7 +317,10 @@ To send the header with the JWT token, use Authorization as the header name and 
 
 **To-Dos:** <br>
 
-Do not forget to pass the necessary parameters in the delete and update routes. The ID that should be sent is that of the to-do, not the user.
+In the `/toDos/create` route, the following data must be sent: `name` (string), `task` (string), `priority` (string), `status` (string), `term` (date), `category` (string), and `description` (string). It is important to note that the `description` field is optional.
+<br>
+
+Do not forget to pass the necessary parameters in the `delete` and `update` routes. The ID that should be sent is that of the to-do, not the user.
 
 <br>
 
