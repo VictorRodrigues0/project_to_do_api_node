@@ -325,7 +325,8 @@ Do not forget to pass the necessary parameters in the `delete` and `update` rout
 <br>
 
 **For update type routes:**
-<br> In these types of routes, it is important to send ALL user data again, changing only what is necessary. This ensures that other fields are not overwritten or lost.
+<br>
+In these types of routes, it is important to send **ALL** user data again, changing only what is necessary. This ensures that other fields are not overwritten or lost.
 
 <br>
 
