@@ -1,7 +1,5 @@
 # project_to_do_api_node
 
-<hr>
-
 ### Topics / Tópicos:
 
 - [Mais sobre o projeto](#mais-sobre-o-projeto) | [More about the project](#More-about-the-project)
@@ -233,3 +231,195 @@ Utilize o projeto em produção: https://project-to-do-api-node.onrender.com
 ## Agradecimento:
 
 Agradeço por utilizar esta API. Espero que tenha sido útil para o seu projeto pessoal. Sua contribuição é sempre bem-vinda, seja para corrigir algum erro ou adicionar novas funcionalidades. Não hesite em enviar sua solução.
+
+<hr>
+
+## More about the project
+</div>
+This is a description of a task management application (To-Do API) using Node.js, PostgreSQL, and JWT authentication:
+
+The To-Do API was developed with Node.js and Express.js, allowing users to manage their tasks securely and efficiently.
+
+The server is implemented with Express.js, while PostgreSQL serves as the relational database, storing task information such as title, description, and status. Communication between Node.js and PostgreSQL is handled through the pg library, which manages database connections and operations.
+
+The API supports CRUD (Create, Read, Update, Delete) operations for tasks. Security is ensured through the implementation of JWT (JSON Web Token) authentication, ensuring that only authenticated users can access and manipulate their tasks. JWT enables token-based authentication, protecting routes and stored data.
+
+Users can create accounts, log in, and, after authentication, perform all task-related operations. This approach makes the API scalable and secure, prepared for future enhancements such as more refined access control or integrations with other services.
+
+This is the first functional version; in the future, the project may be improved with database optimizations, new features, and enhancements in design and user experience.
+
+<hr>
+
+Tools
+<div style="display:inline-block"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="100px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" width="100px" /> </div> <hr>
+
+## How to download:
+First, clone the project to a directory of your choice
+```bash
+git clone https://github.com/VictorRodrigues0/project_to_do_api_node.git
+```
+
+Then, install the Node modules:
+```bash
+npm install
+```
+
+Now, simply start the server using:
+
+```bash
+npm run server
+```
+
+<hr>
+
+## Routes
+Before demonstrating how to use this API, it is crucial to mention that this project is live. If you choose not to use it locally, you can simply replace https://localhost/your_port with the link provided in the API link section.
+
+⚠️ Important Notice: Don’t forget to configure the .env file before starting the application. Ensure that environment variables such as database credentials, JWT secret key, and application port are set correctly for your environment. This step is essential for the proper functioning of the API.
+
+<br> ✅ https://localhost/your_port: Checks if the application is running (for testing purposes). <br><br> User Routes: <br> ✅ https://localhost/your_port/users: Checks if the users route is running (for testing purposes). <br> ✅ https://localhost/your_port/users/register: Registers a user in the database. <br> ✅ https://localhost/your_port/users/login: Logs in using the email and password of a registered user. <br> ✅ https://localhost/your_port/users/list: Lists all users in the system. <br> ✅ https://localhost/your_port/users/update/user_id: Updates the data of the specified user. <br> ✅ https://localhost/your_port/users/delete/user_id: Deletes the specified user. <br><br> To-Do Routes: <br> ✅ https://localhost/your_port/toDos: Checks if the toDos route is running (for testing purposes). <br> ✅ https://localhost/your_port/toDos/create: Creates a to-do for the logged-in user. <br> ✅ https://localhost/your_port/toDos/list: Lists the to-dos of the logged-in user. <br> ✅ https://localhost/your_port/toDos/update/to_do_id: Updates a specific to-do of the logged-in user. <br> ✅ https://localhost/your_port/toDos/delete/to_do_id: Deletes a specific to-do of the logged-in user. <br> <br>
+
+**Detailed Explanation of Routes:** <br><br> **Users:** <br>
+
+In the /users/register route, you must send the following values: name (string), email (string), and password (string). Make sure to provide a valid email, as there is a level of verification. A valid email resembles youremail@gmail.com. <br>
+
+In the /users/login route, a token will be generated to authorize the user to access other routes of the system. Remember to include this token in the header of almost ⚠️ALL ROUTES⚠️ of the system. The only routes that do not require this token are: /users/register, /users/login, and /users/list. If the token is not sent, access will be denied. <br>
+
+To send the header with the JWT token, use Authorization as the header name and the content in the format bearer logged_in_user_token.
+
+<br>
+
+**To-Dos:** <br>
+
+Do not forget to pass the necessary parameters in the delete and update routes. The ID that should be sent is that of the to-do, not the user.
+
+<br>
+
+**For update type routes:**
+<br> In these types of routes, it is important to send ALL user data again, changing only what is necessary. This ensures that other fields are not overwritten or lost.
+
+<br>
+
+**Copyable URLs** <br><br> 
+
+**Default Route:**
+```url
+https://localhost/sua_porta
+```
+
+**User Routes:**
+
+```url
+https://localhost/sua_porta/users
+```
+```url
+https://localhost/sua_porta/users/register
+```
+```url
+https://localhost/sua_porta/users/login
+```
+```url
+https://localhost/sua_porta/users/list
+```
+```url
+https://localhost/sua_porta/users/update/id_do_usuario
+```
+```url
+https://localhost/sua_porta/users/delete/id_do_usuario
+```
+
+
+**To-Do Routes:**
+
+
+```url
+https://localhost/sua_porta/toDos
+```
+```url
+https://localhost/sua_porta/toDos/create
+```
+```url
+https://localhost/sua_porta/toDos/list
+```
+```url
+https://localhost/sua_porta/toDos/update/id_do_to_do
+```
+```url
+https://localhost/sua_porta/users/delete/id_do_to_do
+```
+
+<br>
+
+If you are using the project in deploy, below are the same links already configured for use on an online server.
+
+<br>
+
+**Default Route:**
+
+```url
+https://project-to-do-api-node.onrender.com
+```
+
+**User Routes:**
+```url
+https://project-to-do-api-node.onrender.com/users
+```
+```url
+https://project-to-do-api-node.onrender.com/users/register
+```
+```url
+https://project-to-do-api-node.onrender.com/users/login
+```
+```url
+https://project-to-do-api-node.onrender.com/users/list
+```
+```url
+https://project-to-do-api-node.onrender.com/users/update/id_do_usuario
+```
+```url
+https://project-to-do-api-node.onrender.com/users/delete/id_do_usuario
+```
+
+**To-Do Routes:**
+```url
+https://project-to-do-api-node.onrender.com/toDos
+```
+```url
+https://project-to-do-api-node.onrender.com/toDos/create
+```
+```url
+https://project-to-do-api-node.onrender.com/toDos/list
+```
+```url
+https://project-to-do-api-node.onrender.com/toDos/update/id_do_to_do
+```
+```url
+https://project-to-do-api-node.onrender.com/users/delete/id_do_to_do
+```
+
+
+<hr>
+
+## API Link:
+Use the project in production: https://project-to-do-api-node.onrender.com
+
+<hr>
+
+## Acknowledgment:
+Thank you for using this API. I hope it has been helpful for your personal project. Your contribution is always welcome, whether to fix a bug or add new features. Don’t hesitate to submit your solution.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
