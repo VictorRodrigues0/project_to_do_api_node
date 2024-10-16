@@ -250,7 +250,7 @@ This is the first functional version; in the future, the project may be improved
 
 <hr>
 
-Tools
+## Tools
 <div style="display:inline-block"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="100px" /> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" width="100px" /> </div> <hr>
 
 ## How to download:
@@ -277,7 +277,26 @@ Before demonstrating how to use this API, it is crucial to mention that this pro
 
 ⚠️ Important Notice: Don’t forget to configure the .env file before starting the application. Ensure that environment variables such as database credentials, JWT secret key, and application port are set correctly for your environment. This step is essential for the proper functioning of the API.
 
-<br> ✅ https://localhost/your_port: Checks if the application is running (for testing purposes). <br><br> User Routes: <br> ✅ https://localhost/your_port/users: Checks if the users route is running (for testing purposes). <br> ✅ https://localhost/your_port/users/register: Registers a user in the database. <br> ✅ https://localhost/your_port/users/login: Logs in using the email and password of a registered user. <br> ✅ https://localhost/your_port/users/list: Lists all users in the system. <br> ✅ https://localhost/your_port/users/update/user_id: Updates the data of the specified user. <br> ✅ https://localhost/your_port/users/delete/user_id: Deletes the specified user. <br><br> To-Do Routes: <br> ✅ https://localhost/your_port/toDos: Checks if the toDos route is running (for testing purposes). <br> ✅ https://localhost/your_port/toDos/create: Creates a to-do for the logged-in user. <br> ✅ https://localhost/your_port/toDos/list: Lists the to-dos of the logged-in user. <br> ✅ https://localhost/your_port/toDos/update/to_do_id: Updates a specific to-do of the logged-in user. <br> ✅ https://localhost/your_port/toDos/delete/to_do_id: Deletes a specific to-do of the logged-in user. <br> <br>
+<br> ✅ 
+
+**Default route** <br>
+
+`https://localhost/your_port`: Checks if the application is running (for testing purposes). <br><br>
+
+**User Routes:** <br> 
+✅ `https://localhost/your_port/users`: Checks if the users route is running (for testing purposes). <br>
+✅ `https://localhost/your_port/users/register`: Registers a user in the database. <br> 
+✅ `https://localhost/your_port/users/login`: Logs in using the email and password of a registered user. <br> 
+✅ `https://localhost/your_port/users/list`: Lists all users in the system. <br> 
+✅ `https://localhost/your_port/users/update/user_id`: Updates the data of the specified user. <br>
+✅ `https://localhost/your_port/users/delete/user_id:` Deletes the specified user. <br><br> 
+
+**To-Do Routes:** <br> 
+✅`https://localhost/your_port/toDos`: Checks if the toDos route is running (for testing purposes). <br> 
+✅ `https://localhost/your_port/toDos/create`: Creates a to-do for the logged-in user. <br>
+✅ `https://localhost/your_port/toDos/list`: Lists the to-dos of the logged-in user. <br> 
+✅` https://localhost/your_port/toDos/update/to_do_id`: Updates a specific to-do of the logged-in user. <br> 
+✅ `https://localhost/your_port/toDos/delete/to_do_id`: Deletes a specific to-do of the logged-in user. <br> <br>
 
 **Detailed Explanation of Routes:** <br><br> **Users:** <br>
 
