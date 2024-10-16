@@ -1,5 +1,7 @@
 # project_to_do_api_node
 
+<hr>
+
 ### Topics / Tópicos:
 
 - [Mais sobre o projeto](#mais-sobre-o-projeto) | [More about the project](#More-about-the-project)
@@ -58,6 +60,7 @@ Agora, basta iniciar o servidor usando:
 ```bash
 npm run server
 ```
+<hr>
 
 ## Rotas
 
