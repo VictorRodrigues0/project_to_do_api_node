@@ -204,6 +204,8 @@ Na rota `/users/login`, será gerado um `token` que autoriza o usuário a acessa
 
 Para enviar o `header` com o `token JWT`, utilize o nome do `header` como `Authorization` e o conteúdo no formato `bearer token_do_usuario_logado`.
 
+<br>
+
 **To-Dos:**
 <br>
 
