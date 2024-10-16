@@ -219,9 +219,13 @@ Não esqueça de passar os parâmetros necessários nas rotas de `delete` e `upd
 <br>
 Em rotas desse tipo, é importante enviar **TODOS** os dados do usuário novamente, alterando apenas o que for necessário. Isso garante que os outros campos não sejam sobrescritos ou perdidos.  
 
+<hr>
+
 ## Link da API:
 
 Utilize o projeto em produção: https://project-to-do-api-node.onrender.com
+
+<hr>
 
 ## Agradecimento:
 
