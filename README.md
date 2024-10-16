@@ -99,7 +99,7 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 <br>
 <br>
 
-**Explicando mehor as rotas:**
+**Explicando melhor as rotas:**
 <br><br>
 **Users:**
 <br>
