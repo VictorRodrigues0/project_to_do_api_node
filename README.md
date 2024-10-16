@@ -280,7 +280,7 @@ npm run server
 <hr>
 
 ## Routes
-Before demonstrating how to use this API, it is crucial to mention that this project is live. If you choose not to use it locally, you can simply replace `https://localhost/your_port` with the link provided in the API link section.
+Before demonstrating how to use this API, it is crucial to mention that this project is live. If you choose not to use it locally, you can simply replace `https://localhost/your_port` with the link provided in the [API link](#api-link) section.
 
 ⚠️ **Important Notice:** Don’t forget to configure the `env` file before starting the application. Ensure that environment variables such as `database credentials`, `JWT secret key`, and `application port `are set correctly for your environment. This step is essential for the proper functioning of the API.
 
@@ -307,11 +307,11 @@ Before demonstrating how to use this API, it is crucial to mention that this pro
 
 **Detailed Explanation of Routes:** <br><br> **Users:** <br>
 
-In the /users/register route, you must send the following values: name (string), email (string), and password (string). Make sure to provide a valid email, as there is a level of verification. A valid email resembles youremail@gmail.com. <br>
+In the `/users/register route`, you must send the following values: `name` (string), `email` (string), and `password` (string). Make sure to provide a valid email, as there is a level of verification. A valid email resembles `youremail@gmail.com`. <br>
 
-In the /users/login route, a token will be generated to authorize the user to access other routes of the system. Remember to include this token in the header of almost ⚠️ALL ROUTES⚠️ of the system. The only routes that do not require this token are: /users/register, /users/login, and /users/list. If the token is not sent, access will be denied. <br>
+In the `/users/login` route, a token will be generated to authorize the user to access other routes of the system. Remember to include this token in the header of almost ⚠️ALL ROUTES⚠️ of the system. The only routes that do not require this token are: `/users/register`, `/users/login`, and `/users/list`. If the token is not sent, access will be denied. <br>
 
-To send the header with the JWT token, use Authorization as the header name and the content in the format bearer logged_in_user_token.
+To send the `header` with the `JWT token`, use `Authorization` as the `header` name and the content in the format `bearer logged_in_user_token`.
 
 <br>
 
