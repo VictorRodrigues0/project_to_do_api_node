@@ -41,7 +41,7 @@ Esta é a primeira versão funcional; no futuro, o projeto pode ser aprimorado c
           
 <hr>
 
-## Como instalar:
+## Como Instalar
 
 Primeiro, copie o projeto para uma pasta de sua preferência:
 ```bash
@@ -225,13 +225,13 @@ https://project-to-do-api-node.onrender.com/users/delete/id_do_to_do
 
 <hr>
 
-## Link da API:
+## Link da API
 
 Utilize o projeto em produção: https://project-to-do-api-node.onrender.com
 
 <hr>
 
-## Agradecimento:
+## Agradecimento
 
 Agradeço por utilizar esta API. Espero que tenha sido útil para o seu projeto pessoal. Sua contribuição é sempre bem-vinda, seja para corrigir algum erro ou adicionar novas funcionalidades. Não hesite em enviar sua solução.
 
@@ -259,7 +259,7 @@ This is the first functional version; in the future, the project may be improved
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/nodejs/nodejs-original-wordmark.svg" width="100px" /> 
 <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/postgresql/postgresql-original-wordmark.svg" width="100px" /> </div> <hr>
 
-## How to Install:
+## How to Install
 First, clone the project to a directory of your choice
 ```bash
 git clone https://github.com/VictorRodrigues0/project_to_do_api_node.git
@@ -429,12 +429,12 @@ https://project-to-do-api-node.onrender.com/users/delete/to_do_id
 
 <hr>
 
-## API Link:
+## API Link
 Use the project in production: https://project-to-do-api-node.onrender.com
 
 <hr>
 
-## Acknowledgment:
+## Acknowledgment
 Thank you for using this API. I hope it has been helpful for your personal project. Your contribution is always welcome, whether to fix a bug or add new features. Don’t hesitate to submit your solution.
 
 
