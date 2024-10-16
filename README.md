@@ -86,11 +86,11 @@ Antes de demonstrar como usar esta API, é de extrema importância mencionar que
 <br>
 ✅ `https://localhost/sua_porta/users/delete/id_do_user`: Excluí o usuário passado por parâmetro.
 <br><br>
-**Rota dos to dos:**
+**Rota dos to-dos:**
 <br>
 ✅ `https://localhost/sua_porta/toDos`: Verifica se a rota `toDos` está no ar (apenas para testar).
 <br>
-✅ `https://localhost/sua_porta/toDos/create`:Cria um to do para o usuário ogado.
+✅ `https://localhost/sua_porta/toDos/create`: Cria um to do para o usuário ogado.
 <br>
 ✅ `https://localhost/sua_porta/toDos/list`: Lista os to dos do usuário logado.
 <br>
@@ -155,7 +155,7 @@ https://localhost/sua_porta/users/update/id_do_usuario
 https://localhost/sua_porta/users/delete/id_do_usuario
 ```
 
-**Rota dos to dos:**
+**Rota dos to-dos:**
 
 ```url
 https://localhost/sua_porta/toDos
@@ -204,7 +204,7 @@ https://project-to-do-api-node.onrender.com/users/update/id_do_usuario
 https://project-to-do-api-node.onrender.com/users/delete/id_do_usuario
 ```
 
-**Rota dos to dos:**
+**Rota dos to-dos:**
 
 ```url
 https://project-to-do-api-node.onrender.com/toDos
